@@ -11,7 +11,6 @@ import pathlib
 import traceback
 import math
 import re
-
 import aiohttp
 import discord
 import colorlog
@@ -3029,3 +3028,7 @@ class MusicBot(discord.Client):
             if vc.guild == guild:
                 return vc
         return None
+    
+    
+    access_token = os.environ["BOT_TOKEN"]
+    client.run(access_token)
