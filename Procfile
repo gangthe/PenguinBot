@@ -1,1 +1,0 @@
-work: python py.py
