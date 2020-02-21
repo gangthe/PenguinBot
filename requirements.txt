@@ -1,17 +1,17 @@
 discord.py==0.16.12
-import os
-import sys
-import time
-import shlex
-import shutil
-import random
-import inspect
-import logging
-import asyncio
-import pathlib
-import traceback
-import math
-import re
-import aiohttp
-import discord
-import colorlog
+os.py
+sys.py
+time.py
+shlex.py
+shutil.py
+random.py
+inspect.py
+logging.py
+asyncio.py
+pathlib.py
+traceback.py
+math.py
+re.py
+aiohttp.py
+discord.py
+colorlog.py
