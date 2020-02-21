@@ -1,0 +1,59 @@
+[50.003051758] 2020-02-21 16:32:54,893 - INFO - launcher: Starting sanity checks
+[51.003217697] 2020-02-21 16:32:54,894 - INFO - launcher: Checking for Python 3.5+
+[51.003217697] 2020-02-21 16:32:54,894 - INFO - launcher: Checking console encoding
+[51.003217697] 2020-02-21 16:32:54,894 - INFO - launcher: Setting console encoding to UTF-8
+[52.003145218] 2020-02-21 16:32:54,895 - INFO - launcher: Ensuring we're in the right environment
+[54.003238678] 2020-02-21 16:32:54,897 - INFO - launcher: Adding local bins/ folder to path
+[1216.069698334] 2020-02-21 16:32:56,059 - INFO - launcher: Required checks passed.
+[1217.069864273] 2020-02-21 16:32:56,060 - INFO - launcher: Optional checks passed.
+[1217.069864273] 2020-02-21 16:32:56,060 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.2741303443908691] 2020-02-21 16:32:57,117 - WARNING - musicbot.config | In config.py::MainThread(10120), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.2741303443908691] 2020-02-21 16:32:57,117 - INFO - musicbot.config | In config.py::MainThread(10120), line 132 in run_checks: Using i18n: config/i18n/en.json
+[2.2771303653717041] 2020-02-21 16:32:57,120 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 225 in _setup_logging: Set logging level to INFO
+[2.2801306247711182] 2020-02-21 16:32:57,123 - DEBUG - musicbot.json | In json.py::MainThread(10120), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.3261332511901855] 2020-02-21 16:32:57,169 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 90 in __init__: Starting MusicBot version_unknown
+[2.3271331787109375] 2020-02-21 16:32:57,170 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[5.3903083801269531] 2020-02-21 16:33:00,234 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 951 in on_ready: Connection established, ready to go.
+[5.3903083801269531] 2020-02-21 16:33:00,234 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 342 in _cache_app_info: Caching app info
+[5.6103210449218750] 2020-02-21 16:33:00,454 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.6133213043212891] 2020-02-21 16:33:00,457 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 789 in _scheck_server_permissions: Checking server permissions
+[5.6143212318420410] 2020-02-21 16:33:00,458 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.6143212318420410] 2020-02-21 16:33:00,458 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 797 in _scheck_configs: Validating config
+[5.6143212318420410] 2020-02-21 16:33:00,458 - DEBUG - musicbot.config | In config.py::MainThread(10120), line 236 in async_validate: Validating options...
+[5.6143212318420410] 2020-02-21 16:33:00,458 - DEBUG - musicbot.config | In config.py::MainThread(10120), line 250 in async_validate: Acquired owner id via API
+[5.6143212318420410] 2020-02-21 16:33:00,458 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 800 in _scheck_configs: Validating permissions config
+[5.6143212318420410] 2020-02-21 16:33:00,458 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10120), line 94 in async_validate: Validating permissions...
+[5.6153213977813721] 2020-02-21 16:33:00,459 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10120), line 98 in async_validate: Fixing automatic owner group
+[5.6153213977813721] 2020-02-21 16:33:00,459 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 968 in on_ready: Connected: 680279671329521664/뗑컨봇#0729
+[5.6213219165802002] 2020-02-21 16:33:00,465 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 976 in on_ready: Owner:     334335148390875137/병준#6961
+
+[5.6223218441009521] 2020-02-21 16:33:00,466 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 979 in on_ready: Guild List:
+[5.6223218441009521] 2020-02-21 16:33:00,466 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 983 in on_ready:  - 버근가
+[5.6233220100402832] 2020-02-21 16:33:00,467 - ERROR - musicbot.bot | In bot.py::MainThread(10120), line 939 in on_error: Exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\User01\Desktop\python\lib\site-packages\discord\client.py", line 270, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User01\Desktop\musicbot\MusicBot\musicbot\bot.py", line 1013, in on_ready
+    print(flush=True)
+  File "C:\Users\User01\Desktop\python\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\Users\User01\Desktop\python\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\Users\User01\Desktop\python\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Users\User01\Desktop\python\lib\site-packages\colorama\ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+PermissionError: [WinError 31] 시스템에 부착된 장치가 작동하지 않습니다
+[9.7715590000152588] 2020-02-21 16:33:04,615 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 2706 in on_message: 334335148390875137/병준#6961: //summon
+[10.2985892295837402] 2020-02-21 16:33:05,142 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 733 in deserialize_queue: Deserializing queue for 677391960935497762
+[10.7326140403747559] 2020-02-21 16:33:05,576 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 425 in get_player: Created player via deserialization for guild 677391960935497762 with 2 entries
+[10.7326140403747559] 2020-02-21 16:33:05,576 - INFO - musicbot.bot | In bot.py::MainThread(10120), line 1935 in cmd_summon: Joining 버근가/주지딱대
+[10.7356142997741699] 2020-02-21 16:33:05,579 - DEBUG - musicbot.entry | In entry.py::MainThread(10120), line 56 in get_ready_future: Created future for audio_cache\youtube-ed8NprdYwTI-2020_2_21_3_KPOP_Chart.webm
+[10.7356142997741699] 2020-02-21 16:33:05,579 - DEBUG - musicbot.entry | In entry.py::MainThread(10120), line 56 in get_ready_future: Created future for audio_cache\youtube-ed8NprdYwTI-2020_2_21_3_KPOP_Chart.webm
+[10.7356142997741699] 2020-02-21 16:33:05,579 - FFMPEG - musicbot.player | In player.py::MainThread(10120), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ed8NprdYwTI-2020_2_21_3_KPOP_Chart.webm
+[10.7806167602539062] 2020-02-21 16:33:05,624 - DEBUG - musicbot.player | In player.py::MainThread(10120), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x043D4B50> using <discord.voice_client.VoiceClient object at 0x04474D70>
+[10.7816166877746582] 2020-02-21 16:33:05,625 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 460 in on_player_play: Running on_player_play
+[10.7826168537139893] 2020-02-21 16:33:05,626 - DEBUG - musicbot.bot | In bot.py::MainThread(10120), line 709 in serialize_queue: Serializing queue for 677391960935497762

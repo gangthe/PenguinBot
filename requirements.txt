@@ -1,16 +1,6 @@
-import os
-import sys
-import time
-import shlex
-import shutil
-import random
-import inspect
-import logging
-import asyncio
-import pathlib
-import traceback
-import math
-import re
-import aiohttp
-import discord==0.16.12
-import colorlog
+pynacl==1.2.1
+discord.py[voice]==1.2.5
+pip
+youtube_dl
+colorlog
+cffi --only-binary all; sys_platform == 'win32'
